@@ -1,6 +1,12 @@
 # TXT files
 *.txt
 *.TXT
+*.csv
+emails/
+*.log
+
+# SQL
+*.db
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
