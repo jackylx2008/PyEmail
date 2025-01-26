@@ -10,7 +10,7 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
         logging.StreamHandler(),  # 输出到控制台
-        # logging.FileHandler("process_emails.log", encoding="utf-8"),  # 输出到文件
+        logging.FileHandler("./process_emails.log", encoding="utf-8"),  # 输出到文件
     ],
 )
 

@@ -1,12 +1,24 @@
+config.json
+logs/
+
+# env file
+.env
+
 # TXT files
 *.txt
 *.TXT
 *.csv
 emails/
 *.log
+*.ini
+
+# eml files
+*.eml
+*.zip
 
 # SQL
 *.db
+database.db
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
